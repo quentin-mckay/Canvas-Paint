@@ -39,7 +39,8 @@ function draw(e) {
     // lastY = e.offsetY
     hue += 1
 
-    if (ctx.lineWidth >= 500 || ctx.lineWidth <=1) {
+    // was 150
+    if (ctx.lineWidth >= 1000 || ctx.lineWidth <=1) {
         direction = !direction
     }
 
